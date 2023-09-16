@@ -155,8 +155,8 @@
             const localInput = document.querySelector('.local input').value;
             if (localInput) {
                 const mensagem = `Vamos nos encontrar em' ${localInput}?`;
-                const numeroWhatsApp = 'SEU_NUMERO_DE_WHATSAPP_AQUI';
-                const linkWhatsApp = `https://wa.me/11937781104/?text=${encodeURIComponent(mensagem)}`;
+                const numeroWhatsApp = '11 937781104';
+                const linkWhatsApp = `https://wa.me/${numeroWhatsApp}/?text=${encodeURIComponent(mensagem)}`;
                 window.location.href = linkWhatsApp;
             }
         });
